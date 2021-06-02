@@ -1,4 +1,6 @@
-type system_suspend, domain, coredomain, system_suspend_server;
+# type system_suspend, domain, coredomain, system_suspend_server;
+
+typeattribute system_suspend domain, coredomain, system_suspend_server;
 
 type system_suspend_exec, system_file_type, exec_type, file_type;
 init_daemon_domain(system_suspend)
